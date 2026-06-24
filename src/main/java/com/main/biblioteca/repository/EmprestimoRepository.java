@@ -4,10 +4,13 @@
  */
 package com.main.biblioteca.repository;
 
+import com.main.biblioteca.model.EmprestimoDTO;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 /**
  *
  * @author Aluno
  */
-public interface EmprestimoDTO {
+public interface EmprestimoRepository extends JpaRepository<EmprestimoDTO, Integer>{
     
 }

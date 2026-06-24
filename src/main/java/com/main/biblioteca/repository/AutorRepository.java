@@ -4,10 +4,13 @@
  */
 package com.main.biblioteca.repository;
 
+import com.main.biblioteca.model.AutorDTO;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 /**
  *
  * @author Aluno
  */
-public interface AutorRepository {
+public interface AutorRepository extends JpaRepository<AutorDTO, Integer>{
     
 }
